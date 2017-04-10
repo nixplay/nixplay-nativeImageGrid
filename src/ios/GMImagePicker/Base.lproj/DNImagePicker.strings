@@ -1,0 +1,20 @@
+/* 
+  DNImagePicker.strings
+  ImagePicker
+
+  Created by DingXiao on 15/3/4.
+  Copyright (c) 2015年 Dennis. All rights reserved.
+*/
+"albumTitle" = "Photos";
+"back" = "Back";
+"cancel" = "Cancel";
+"send" = "Next";
+"preview" = "Preview";
+"fullImage" = "Full Image";
+"alertTitle" = "Error";
+"alertContent" = "Can not select more than %d photos";
+"alertButton" = "OK";
+"alertImageLoadingTitle" = "Image Loading";
+"alertImageLoadingMessage" = "This image is being downloaded. Please try again later.";
+"loadingAlertTitle" = "Processing...";
+"UnAuthorizedTip" = "Allow %@ to access your album in \"Settings\"->\"Privacy\"->\"Photos\"";

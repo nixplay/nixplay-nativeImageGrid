@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.creedon.nixplay.nativeimagegrid" version="0.2.3">
+    <name>NativeImageGrid</name>
+
+    <description>nixplay-native-image-grid</description>
+    
+    <license>MIT</license>
+    
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    ]<js-module src="www/NativeImageGrid.js" name="NativeImageGrid">
+     
+        <clobbers target="plugins.NativeImageGrid" />
+    </js-module>
+    
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="NativeImageGrid">
+                <param name="ios-package" value="SOSPicker"/>
+            </feature>
+        </config-file>
+        
+        <header-file src="src/ios/SOSPicker.h" />
+        <source-file src="src/ios/SOSPicker.m" />
+
+    </platform>
+
+</plugin>

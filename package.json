@@ -1,0 +1,31 @@
+{
+  "name": "nixplay-nativeImageGrid",
+  "version": "0.0.1",
+  "description": "nixplay-native-image-grid",
+  "cordova": {
+    "id": "com.creedon.nixplay.nativeimagegrid",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nixplay/nixplay-nativeImageGrid.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "James Kong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nixplay/nixplay-nativeImageGrid/issues"
+  },
+  "homepage": "https://github.com/nixplay/nixplay-nativeImageGrid#readme"
+}
